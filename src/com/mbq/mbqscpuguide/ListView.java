@@ -15,7 +15,7 @@ public class ListView extends Activity {
 	    public void onCreate(Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
 	        setContentView(R.layout.activity_main);
-	       String  arr[]={"About","Governors","IO Schedulers","TricksterMOD terms","Help"};
+	       String  arr[]={"About","Governors","IO Schedulers","TricksterMOD terms", "TCP Algorithms", "Governor recommendations", "Tips"};
 	  ArrayAdapter<String> adapter=new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, arr);
 	  l.setAdapter(adapter);
 	  
