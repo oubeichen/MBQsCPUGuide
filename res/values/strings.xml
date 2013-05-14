@@ -8,7 +8,7 @@
         <item>Governors</item>
         <item>IO Schedulers</item>
         <item>TricksterMOD Terms</item>
-        <item>TCP Algorithms</item> 
+        <item>TCP Congestion</item> 
         <item>Governor Recommendations</item> 
         <item>Tips</item>
     </string-array>
