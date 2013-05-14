@@ -45,10 +45,19 @@ public final class R {
     }
     public static final class id {
         public static final int action_settings=0x7f090001;
+        public static final int item1=0x7f090003;
+        public static final int item2=0x7f090002;
+        public static final int item4=0x7f090004;
+        public static final int item5=0x7f090005;
+        public static final int item6=0x7f090006;
+        public static final int item7=0x7f090007;
+        public static final int item8=0x7f090008;
+        public static final int item9=0x7f090009;
         public static final int listView1=0x7f090000;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
+        public static final int about=0x7f030000;
+        public static final int activity_main=0x7f030001;
     }
     public static final class menu {
         public static final int main=0x7f080000;
@@ -56,7 +65,6 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
-        public static final int hello_world=0x7f050002;
     }
     public static final class style {
         /** 

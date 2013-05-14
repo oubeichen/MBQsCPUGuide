@@ -4,6 +4,23 @@
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:showAsAction="never"
-        android:title="@string/action_settings"/>
+        android:title="@string/action_settings">
+        <menu>
+            <item android:id="@+id/item2" android:title="Theme"/>
+            <item android:id="@+id/item1" android:title="Options"/>
+        </menu>
+    </item>
+    <item android:id="@+id/item4" android:title="About">
+        <menu>
+            <item android:id="@+id/item5" android:title="Version"/>
+            <item android:id="@+id/item6" android:title="Build date"/>
+        </menu>
+    </item>
+    <item android:id="@+id/item7" android:title="Help">
+        <menu>
+            <item android:id="@+id/item8" android:title="Q&amp;A"/>
+            <item android:id="@+id/item9" android:title="Troubleshoot"/>
+        </menu>
+    </item>
 
 </menu>
