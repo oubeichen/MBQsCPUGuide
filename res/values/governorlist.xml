@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="governorlist">
+        <item>Interactive</item>
+        <item>InteractiveX</item>
+        <item>OnDemand</item>
+        <item>OnDemandX</item>
+        <item>SmartAss</item>
+        <item>SmartAssv2</item>
+        <item>IntelliDemand</item>
+        <item>Wheatley</item>
+        <item>OnDemandPlus</item>
+        <item>Hyper</item>
+    </string-array>
+</resources>

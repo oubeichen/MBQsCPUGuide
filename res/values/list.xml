@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list">
+        <item>About this app</item>
+        <item>Content</item>
+        <item>CPU Governors</item>
+        <item>IO Schedulers</item>
+        <item>TCP Congestion</item>
+        <item>TricksterMOD Terms</item>
+    </string-array>
+</resources>

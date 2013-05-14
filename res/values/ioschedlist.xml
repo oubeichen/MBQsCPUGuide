@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ioschedlist">
+        <item>BFQ</item>
+        <item>CFQ</item>
+        <item>V(R)</item>
+        <item>SIO</item>
+        <item>FIOPS</item>
+        <item>Noop</item>
+        <item>Zen</item>
+    </string-array>
+</resources>
