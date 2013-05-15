@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
-public class Aboutsettings extends Activity
+public class AboutSettings extends Activity
 {
     /** Called when the activity is first created. */
     @Override

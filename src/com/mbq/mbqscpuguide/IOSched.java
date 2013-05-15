@@ -1,6 +1,5 @@
 package com.mbq.mbqscpuguide;
 
-<<<<<<< HEAD
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -38,11 +37,3 @@ public class IOSched extends ListActivity {
         });
     }
 }
-=======
-import android.app.Fragment;
-
-
-public class IOSched extends Fragment {
-
-	}
->>>>>>> f325acb54daf5a978672f844d996d04e12626dee
