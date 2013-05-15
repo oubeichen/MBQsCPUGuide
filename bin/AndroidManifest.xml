@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mbq.mbqscpuguide"
     android:versionCode="0"
-    android:versionName="0.2" >
+    android:versionName="0.3" >
 
     <uses-sdk
         android:minSdkVersion="17"
@@ -28,4 +28,41 @@
                     android:label="Single Item Selected"></activity>
     </application>
 
+<activity android:name=".About"
+                    android:label="About settings"></activity>
+    
+    <activity android:name=".AboutSettings"
+                    android:label="get about settings"></activity>
+
+    
+    <activity android:name=".Governors"
+                    android:label="Get Governor list"></activity>
+
+    
+    <activity android:name=".IOSched"
+                    android:label="Get IO Scheduler list"></activity>
+
+    
+    <activity android:name=".MainActivity"
+                    android:label="Meh, useless"></activity>
+
+    
+    <activity android:name=".Recommendations"
+                    android:label="Get recommendation list"></activity>
+
+    
+    <activity android:name=".ShowIOSchedulerOptions"
+                    android:label="Show the sched array"></activity>
+
+    
+    <activity android:name=".TCP"
+                    android:label="Algorithms, yay"></activity>
+
+    
+    <activity android:name=".TricksterInfo"
+                    android:label="Single Item Selected"></activity>
+
+    
+    <activity android:name=".SingleListItem"
+                    android:label="Get TricksterMOD info"></activity>
 </manifest>

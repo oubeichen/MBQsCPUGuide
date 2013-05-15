@@ -10,17 +10,17 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
  
 public class IOSched extends ListActivity {
-    @Override
+   
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
          
         // storing string resources into Array
-        final String[] schedlist = getResources().getStringArray(R.array.ioschedlist);
+        final String[] schedlistView = getResources().getStringArray(R.array.ioschedlist);
          
         // Binding resources Array to ListAdapter
-        this.setListAdapter(new ArrayAdapter<String>(this, R.layout.ioschedview, R.id.iosched, schedlist));
+        this.setListAdapter(new ArrayAdapter<String>(this, R.layout.ioschedview, R.id.schedlistView, schedlistView));
          
-        ListView lv = getListView();
+        ListView lv = getListView();findViewById(R.id.schedlistView);
  
         // listening to single list item on click
         lv.setOnItemClickListener(new OnItemClickListener() {
@@ -30,7 +30,7 @@ public class IOSched extends ListActivity {
               // Launching new Activity on selecting single List Item
               Intent i = new Intent(getApplicationContext(), ShowIOSchedulerOptions.class);
               // sending data to new activity
-              i.putExtra("schedlist", schedlist);
+              i.putExtra("schedlisView", schedlistView);
               startActivity(i);
              
           }

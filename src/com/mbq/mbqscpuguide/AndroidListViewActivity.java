@@ -29,12 +29,12 @@ public class AndroidListViewActivity extends ListActivity {
               int position, long id) {
                
               // selected item 
-              String product = ((TextView) view).getText().toString();
+              String list = ((TextView) view).getText().toString();
                
               // Launching new Activity on selecting single List Item
               Intent i = new Intent(getApplicationContext(), SingleListItem.class);
               // sending data to new activity
-              i.putExtra("product", product);
+              i.putExtra("list", list);
               startActivity(i);
              
           }

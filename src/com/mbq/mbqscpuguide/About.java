@@ -22,7 +22,7 @@ package com.mbq.mbqscpuguide;
 	        // Binding resources Array to ListAdapter
 	        this.setListAdapter(new ArrayAdapter<String>(this, R.layout.list_item, R.id.label, governorlist));
 	         
-	        ListView lv = getListView(0);
+	        ListView lv = getListView();
 	 
 	        // listening to single list item on click
 	        lv.setOnItemClickListener(new OnItemClickListener() {
@@ -41,10 +41,5 @@ package com.mbq.mbqscpuguide;
 	          }
 	        });
 	    }
-
-		private ListView getListView(int i) {
-			// TODO Auto-generated method stub
-			return null;
-		}
 	}
 
