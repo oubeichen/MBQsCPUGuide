@@ -13,7 +13,7 @@ public class SingleListItem extends ListActivity {
 	        super.onCreate(savedInstanceState);
 	        this.setContentView(R.layout.single_list_item_view);
 	         
-	        TextView txtProduct = (TextView) findViewById(R.id.product_label);
+	        TextView product = (TextView) findViewById(R.id.product_label);
 	         
 	        Intent i = getIntent();
 	        // getting attached intent data

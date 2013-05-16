@@ -28,7 +28,7 @@ public class ShowIOSchedulerOptions extends ListActivity {
           public void onItemClick(AdapterView<?> parent, View view,
               int position, long id) {
                
-              // Launching new Activity on selecting single List Item
+              // Launching new Activity on selecting single List Item, I dont need this here and will edit it out soon
               Intent i = new Intent(getApplicationContext(), ShowIOSchedulerOptions.class);
               // sending data to new activity
               i.putExtra("schedlist", schedlist);

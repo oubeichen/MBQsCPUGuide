@@ -26,43 +26,51 @@
                  
         <activity android:name=".SingleListItem"
                     android:label="Single Item Selected"></activity>
-    </application>
+    	</application>
 
-<activity android:name=".About"
+	
+	<activity android:name=".About"
                     android:label="About settings"></activity>
+
     
-    <activity android:name=".AboutSettings"
+   	 <activity android:name=".AboutSettings"
                     android:label="get about settings"></activity>
 
+
     
-    <activity android:name=".Governors"
+   	 <activity android:name=".Governors"
                     android:label="Get Governor list"></activity>
 
     
-    <activity android:name=".IOSched"
+   	 <activity android:name=".IOSched"
                     android:label="Get IO Scheduler list"></activity>
 
     
-    <activity android:name=".MainActivity"
+    	<activity android:name=".MainActivity"
                     android:label="Meh, useless"></activity>
 
+
     
-    <activity android:name=".Recommendations"
+   	 <activity android:name=".Recommendations"
                     android:label="Get recommendation list"></activity>
 
+
     
-    <activity android:name=".ShowIOSchedulerOptions"
+    	<activity android:name=".ShowIOSchedulerOptions"
                     android:label="Show the sched array"></activity>
 
+
     
-    <activity android:name=".TCP"
+    	<activity android:name=".TCP"
                     android:label="Algorithms, yay"></activity>
 
-    
-    <activity android:name=".TricksterInfo"
-                    android:label="Single Item Selected"></activity>
 
     
-    <activity android:name=".SingleListItem"
+    	<activity android:name=".TricksterInfo"
+                    android:label="Single Item Selected"></activity>
+
+
+    
+   	 <activity android:name=".SingleListItem"
                     android:label="Get TricksterMOD info"></activity>
 </manifest>

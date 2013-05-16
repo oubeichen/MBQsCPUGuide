@@ -33,7 +33,7 @@ package com.mbq.mbqscpuguide;
 	              String product = ((TextView) view).getText().toString();
 	               
 	              // Launching new Activity on selecting single List Item
-	              Intent i = new Intent(getApplicationContext(), AndroidListViewActivity.class);
+	              Intent i = new Intent(getApplicationContext(), AboutSettings.class);
 	              // sending data to new activity
 	              i.putExtra("product", product);
 	              startActivity(i);
