@@ -8,5 +8,6 @@
         <item>FIOPS</item>
         <item>Noop</item>
         <item>Zen</item>
+	<item>ROW</item>
     </string-array>
 </resources>

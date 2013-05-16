@@ -11,5 +11,11 @@
         <item>Wheatley</item>
         <item>OnDemandPlus</item>
         <item>Hyper</item>
+	<item>Lazy</item>
+	<item>Conservative</item>
+	<item>Sakuractive</item>
+	<item>Hotplug</item>
+	<item>Pegasusq</item>
+	<item>Performance</item>
     </string-array>
 </resources>
