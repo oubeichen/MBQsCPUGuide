@@ -1,8 +1,8 @@
 package com.mbq.mbqscpuguide;
 
-import android.app.Fragment;
+import android.app.ListActivity;
 
 
-public class TCP extends Fragment {
+public class TCP extends ListActivity {
 
 	}

@@ -1,8 +1,8 @@
 package com.mbq.mbqscpuguide;
 
-import android.app.Fragment;
+import android.app.ListActivity;
 
 
-public class Governors extends Fragment {
+public class Governors extends ListActivity {
 
 	}
