@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MBQ的CPU知识导航</string>
+    <string name="action_settings">设置</string>       
+    <string-array name="ListItem">
+        <item>关于这个应用</item>
+        <item>CPU调速器</item>
+        <item>IO调度器</item>
+        <item>TricksterMOD术语</item>
+        <item>TCP拥塞控制</item> 
+        <item>CPU调速器建议</item> 
+        <item>小秘诀</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list">
+        <item>关于这个应用</item>
+        <item>内容</item>
+        <item>CPU 调速器</item>
+        <item>IO 调度器</item>
+        <item>TCP 拥塞控制</item>
+        <item>TricksterMOD 术语</item>
+    </string-array>
+</resources>
