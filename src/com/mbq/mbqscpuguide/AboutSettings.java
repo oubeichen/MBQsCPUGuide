@@ -21,7 +21,7 @@ public class AboutSettings extends ListActivity
         LinearLayout mainLayout = (LinearLayout)findViewById(R.id.main_layout_id);
 
         //create a view to inflate the layout_item (the xml with the textView created before)
-        View view = getLayoutInflater().inflate(R.layout.layout_item, mainLayout,false);
+        View view = getLayoutInflater().inflate(R.layout.main, mainLayout,false);
 
         //add the view to the main layout
         mainLayout.addView(view);

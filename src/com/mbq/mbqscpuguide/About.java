@@ -17,10 +17,7 @@ package com.mbq.mbqscpuguide;
 	        super.onCreate(savedInstanceState);
 	         
 	        // storing string resources into Array
-	        String[] governorlist = getResources().getStringArray(R.array.governorlist);
-	         
-	        // Binding resources Array to ListAdapter
-	        this.setListAdapter(new ArrayAdapter<String>(this, R.layout.list_item, R.id.label, governorlist));
+	        final String[] list = getResources().getStringArray(R.array.list);
 	         
 	        ListView lv = getListView();
 	 
@@ -30,16 +27,21 @@ package com.mbq.mbqscpuguide;
 	              int position, long id) {
 	               
 	              // selected item 
-	              String product = ((TextView) view).getText().toString();
+	              String list = ((TextView) view).getText().toString();
 	               
 	              // Launching new Activity on selecting single List Item
 	              Intent i = new Intent(getApplicationContext(), AboutSettings.class);
 	              // sending data to new activity
-	              i.putExtra("product", product);
+	              i.putExtra("list", list);
 	              startActivity(i);
 	             
 	          }
 	        });
 	    }
+
+		private void setListAdapter(ListActivity listActivity)
+		{
+			// TODO: Implement this method
+		}
 	}
 
