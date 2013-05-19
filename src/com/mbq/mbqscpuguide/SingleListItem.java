@@ -18,7 +18,7 @@ public class SingleListItem extends ListActivity {
         final String[] list = getResources().getStringArray(R.array.ListItem);
 
         // Binding resources Array to ListAdapter
-        this.setListAdapter(new ArrayAdapter<String>(this, R.layout.singlelistitemlist, R.id.sliListView, list));
+        this.setListAdapter(new ArrayAdapter<String>(this, R.layout.singlelistitemlist, R.id.list, list));
 
         ListView lv = getListView();
 

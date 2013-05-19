@@ -14,7 +14,7 @@ public class AboutSettings extends ListActivity
         super.onCreate(savedInstanceState);
 
         //here we set the main layout
-        // this is the parrent layout...here we will add the view we created
+        // this is the parent layout...here we will add the view we created
         setContentView(R.layout.main);
 
         //call the main layout from xml

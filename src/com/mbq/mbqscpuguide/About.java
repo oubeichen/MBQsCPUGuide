@@ -37,11 +37,6 @@ package com.mbq.mbqscpuguide;
 	             
 	          }
 	        });
-	    }
-
-		private void setListAdapter(ListActivity listActivity)
-		{
-			// TODO: Implement this method
-		}
-	}
+	    }}
+		
 
