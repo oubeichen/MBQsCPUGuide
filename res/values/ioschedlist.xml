@@ -3,9 +3,9 @@
     <string-array name="ioschedlist">
         <item>BFQ</item>
         <item>CFQ</item>
-        <item>V(R)</item>
+        <item>V(r)</item>
         <item>SIO</item>
-        <item>FIOPS</item>
+        <item>Fiops</item>
         <item>Noop</item>
         <item>Zen</item>
     	<item>ROW</item>
