@@ -11,32 +11,15 @@ package com.mbq.mbqscpuguide;
 	import android.widget.ListView;
 	import android.widget.TextView;
 	 
-	public class About extends ListActivity {
-	    @Override
-	    public void onCreate(Bundle savedInstanceState) {
-	        super.onCreate(savedInstanceState);
-	         
-	        // storing string resources into Array
-	        final String[] list = getResources().getStringArray(R.array.list);
-	         
-	        ListView lv = getListView();
-	 
-	        // listening to single list item on click
-	        lv.setOnItemClickListener(new OnItemClickListener() {
-	          public void onItemClick(AdapterView<?> parent, View view,
-	              int position, long id) {
-	               
-	              // selected item 
-	              String list = ((TextView) view).getText().toString();
-	               
-	              // Launching new Activity on selecting single List Item
-	              Intent i = new Intent(getApplicationContext(), AboutSettings.class);
-	              // sending data to new activity
-	              i.putExtra("list", list);
-	              startActivity(i);
-	             
-	          }
-	        });
-	    }}
-		
+	 public class About extends ListActivity {
 
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		 super.onCreate(savedInstanceState);
+
+	 setListAdapter(new ArrayAdapter<String>(this,
+android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.list)));
+
+		
+	 }
+		 }
