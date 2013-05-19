@@ -10,7 +10,7 @@ import android.widget.*;
 public class AndroidListViewActivity extends ListActivity {
  private String[] strings = { "About this app", "Content", "CPU Governors", "IO Schedulers", "TCP Algorithms", "TricksterMOD Terms" };
  
-	private String[] menuClassNames = { About.class.getName(), AboutSettings.class.getName(), Governors.class.getName(), IOSched.class.getName(), Recommendations.class.getName() };
+	private String[] menuClassNames = { About.class.getName(), AboutSettings.class.getName(), Governors.class.getName(), IOSched.class.getName(), Recommendations.class.getName(), TricksterInfo.class.getName() };
 
 
     @Override

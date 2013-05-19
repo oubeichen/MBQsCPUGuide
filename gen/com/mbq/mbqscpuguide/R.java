@@ -13,6 +13,7 @@ public final class R {
         public static final int governorlist=0x7f050000;
         public static final int ioschedlist=0x7f050001;
         public static final int list=0x7f050002;
+        public static final int trickstermodtermlist=0x7f050004;
     }
     public static final class attr {
     }
