@@ -7,5 +7,7 @@
         <item>IO Schedulers</item>
         <item>TCP Congestion</item>
         <item>TricksterMOD Terms</item>
+        <item>Recommendations</item>
+        <item>Settings</item>
     </string-array>
 </resources>

@@ -2,15 +2,6 @@
 <resources>
 
     <string name="app_name">MBQs CPU Guide</string>
-    <string name="action_settings">Settings</string>       
-    <string-array name="ListItem">
-        <item>About this app</item>
-        <item>Governors</item>
-        <item>IO Schedulers</item>
-        <item>TricksterMOD Terms</item>
-        <item>TCP Congestion</item> 
-        <item>Governor Recommendations</item> 
-        <item>Tips</item>
-    </string-array>
+    <string name="action_settings">Settings</string>
 
 </resources>
